@@ -1,7 +1,7 @@
 module Turnkey
 
   class Utility
-    extend Sanitizers
+    extend Turnkey::Sanitizers
 
     #def self.defineProtocols(instance)
     #  return if instance.respondsToSelector("encodeWithCoder:") && instance.respondsToSelector("initWithCoder:")
